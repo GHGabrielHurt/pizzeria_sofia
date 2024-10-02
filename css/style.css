@@ -325,25 +325,34 @@ footer .social_media .social_icon.linkedin:hover {
   }
 
 }
-
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .gallery-item {
-    flex: 1 1 calc(100% - 20px);
+    flex: 1 1 calc(50% - 20px);
   }
-  @media (max-width: 768px) {
-    .form_grid {
-        grid-template-columns: 2fr;
-    }
+  .form_grid {
+    grid-template-columns: 2fr;
+  }
+ 
+  .text_menu {
+    font-size: 15px;
+  }
   .contenedor_banner {
     left: 9%;
+    
   }
   .contenedor_banner_p {
     left: 22%;
     
   }
+  
+}
+@media (max-width: 480px) {
+  .gallery-item {
+    flex: 1 1 calc(100% - 20px);
+  }
+}
 
 }
-}
-}
+
 
 /*# sourceMappingURL=style.css.map */
